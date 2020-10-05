@@ -1,5 +1,8 @@
 name: Check if plates are in stock
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
