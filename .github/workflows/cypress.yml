@@ -1,7 +1,7 @@
 name: Check if plates are in stock
 on:
   schedule:
-    - cron: '* * * * *'  # once a minute
+    - cron: '*/5 * * * *'  # every five minutes
 jobs:
   cypress-run:
     runs-on: ubuntu-16.04

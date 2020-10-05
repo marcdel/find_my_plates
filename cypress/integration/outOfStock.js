@@ -7,6 +7,5 @@ context('Aliasing', () => {
 
   it('is out of stock', () => {
     cy.get('.cProductCard-status-el').contains('Out of stock')
-    // cy.get('.cAddToCart--text').should('have.value', 'Out of stock')
   })
 })
